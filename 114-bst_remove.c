@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-bst_t *bst_min_vale(bst_t *root);
+bst_t *bst_min_value(bst_t *root);
 
 /**
  * bst_remove - removes a node from a BST
@@ -50,7 +50,7 @@ bst_t *bst_remove(bst_t *root, int value)
  * Return: A pointer to the smallest node
  */
 
-bst_t *bst_min_vale(bst_t *root)
+bst_t *bst_min_value(bst_t *root)
 {
 	bst_t *min = root;
 
